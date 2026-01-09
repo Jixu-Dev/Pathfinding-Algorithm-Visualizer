@@ -1,125 +1,26 @@
-🧭 Pathfinding Algorithm Visualizer
-
-Build and visualize pathfinding algorithms interactively using HTML, CSS, and JavaScript.
-This project helps you understand how algorithms like Dijkstra’s Algorithm explore grids to find the shortest path between two points — all with smooth animations and a modern UI.
-
-📋 Table of Contents
-
 ✨ Introduction
+
+Interactive Pathfinding Algorithm Visualizer built with vanilla HTML, CSS & JavaScript, designed to help developers visually understand how pathfinding algorithms (like Dijkstra’s algorithm) function step-by-step.
+Draw walls, drag start/end nodes, generate mazes, and watch the algorithm explore — all in real time with smooth animations.
+
+If you’re learning algorithm fundamentals, improving your frontend skills, or preparing for interviews — this visualizer gives a fun, interactive way to see how algorithms actually work.
 
 ⚙️ Tech Stack
 
-🔋 Features
+HTML5 – Semantic web structure and layout.
 
-🤸 Quick Start
+CSS3 – Modern styles, responsive design, interactive grid animations.
 
-📁 Project Structure
-
-🚀 Future Enhancements
-
-✨ Introduction
-
-The Pathfinding Algorithm Visualizer is an interactive web-based project that demonstrates how pathfinding algorithms work internally.
-
-Users can:
-
-Draw walls
-
-Move start & target nodes
-
-Generate random mazes
-
-Watch the algorithm explore the grid step by step
-
-This project is ideal for:
-
-Learning DSA concepts visually
-
-Strengthening JavaScript logic
-
-Showcasing frontend + algorithm skills in your portfolio
-
-⚙️ Tech Stack
-
-HTML5 – Semantic structure and layout
-
-CSS3 – Modern dark UI, animations, and responsiveness
-
-JavaScript (Vanilla) – Core logic, grid handling, and algorithm implementation
-
-No frameworks or libraries — pure fundamentals 💪
+JavaScript (Vanilla) – Core logic for grid generation, event handling, and pathfinding algorithm implementation.
 
 🔋 Features
 
-👉 Dijkstra’s Algorithm Visualization
-Visualize how the shortest path is calculated in real time.
-
-👉 Interactive Grid
-Click & drag to create or remove walls dynamically.
-
-👉 Draggable Start & Target Nodes
-Move nodes anywhere on the grid before running the algorithm.
-
-👉 Random Maze Generator
-Generate random obstacles to test different scenarios.
-
-👉 Smooth Animations
-
-Visited nodes animation
-
-Shortest path highlighting
-
-👉 Responsive Design
-Works smoothly on desktop, tablet, and mobile screens.
-
-👉 Clean & Modern UI
-Dark theme with intuitive controls and legends.
-
-🤸 Quick Start
-
-Follow these steps to run the project locally.
-
-Prerequisites
-
-Make sure you have:
-
-A modern web browser (Chrome, Edge, Firefox)
-
-Git (optional, for cloning)
-
-Cloning the Repository
-git clone https://github.com/your-username/pathfinding-visualizer.git
-cd pathfinding-visualizer
-
-Running the Project
-
-Since this is a pure frontend project, no installation is required.
-
-Just open:
-
-index.html
-
-
-in your browser
-(or use Live Server in VS Code for best experience)
-
-📁 Project Structure
-pathfinding-visualizer/
-│
-├── index.html      # Main HTML structure
-├── style.css       # Styling & animations
-├── script.js       # Grid logic & Dijkstra algorithm
-└── README.md       # Project documentation
-
-🚀 Future Enhancements
-
-Planned improvements you can add later:
-
-🔁 BFS & DFS algorithms
-
-⭐ A* (A-Star) pathfinding
-
-🎚️ Speed control slider
+👉 Visualize shortest-path calculation using Dijkstra’s algorithm.
+👉 Interactive grid with click & drag wall placement.
+👉 Draggable start & end nodes to test different scenarios.
+👉 Random maze generator for fun and challenge.
+👉 Smooth animation showing visited nodes and final path.
+👉 Responsive layout that works on desktop and mobile.
 
 📱 Touch-optimized mobile controls
 
