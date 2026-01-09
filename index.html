@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathfinding Algorithm Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Pathfinding Visualizer</h1>
+    <div class="controls">
+        <button onclick="visualize()" id="startBtn">Visualize Dijkstra</button>
+        <button class="secondary" onclick="generateMaze()">Random Maze</button>
+        <button class="secondary" onclick="clearBoard(false)">Clear Path</button>
+        <button class="secondary" onclick="clearBoard(true)">Reset All</button>
+    </div>
+    
+    <div class="instructions">
+        <p><strong>How to Play:</strong> 🖱️ <strong>Draw:</strong> Click & drag on empty cells to create walls. | 📍 <strong>Move:</strong> Click & drag the Green (Start) or Red (Target) blocks to move them. | 🚀 <strong>Run:</strong> Hit 'Visualize' to watch the algorithm work!</p>
+    </div>
+
+    <div class="legend">
+        <div class="legend-item"><div class="box" style="background: var(--start-color)"></div>Start</div>
+        <div class="legend-item"><div class="box" style="background: var(--end-color)"></div>Target</div>
+        <div class="legend-item"><div class="box" style="background: #475569"></div>Wall</div>
+        <div class="legend-item"><div class="box" style="background: var(--visited-color)"></div>Visited</div>
+        <div class="legend-item"><div class="box" style="background: var(--path-color)"></div>Path</div>
+    </div>
+</header>
+
+<div class="grid-container">
+    <div id="grid"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
