@@ -1,29 +1,26 @@
-✨ Introduction
+# Pathfinding Algorithm Visualizer
 
-Interactive Pathfinding Algorithm Visualizer built with vanilla HTML, CSS & JavaScript, designed to help developers visually understand how pathfinding algorithms (like Dijkstra’s algorithm) function step-by-step.
-Draw walls, drag start/end nodes, generate mazes, and watch the algorithm explore — all in real time with smooth animations.
+Interactive Pathfinding Algorithm Visualizer built with HTML, CSS & JavaScript. This project helps users understand how algorithms like Dijkstra’s pathfinding work by showing them visually on a grid in real time. Draw walls, move start/end nodes, generate mazes, and watch the algorithm explore with smooth animations. :contentReference[oaicite:0]{index=0}
 
-If you’re learning algorithm fundamentals, improving your frontend skills, or preparing for interviews — this visualizer gives a fun, interactive way to see how algorithms actually work.
+## 🚀 Features
+- Visualize Dijkstra’s shortest path algorithm step-by-step. :contentReference[oaicite:1]{index=1}
+- Interactive grid with click & drag wall placement. :contentReference[oaicite:2]{index=2}
+- Draggable start and end nodes. :contentReference[oaicite:3]{index=3}
+- Random maze generator for challenge and fun. :contentReference[oaicite:4]{index=4}
+- Smooth animation of visited nodes and final path. :contentReference[oaicite:5]{index=5}
+- Works on both desktop and mobile. :contentReference[oaicite:6]{index=6}
 
-⚙️ Tech Stack
+## 🧰 Tech Stack
+- HTML5
+- CSS3
+- JavaScript (Vanilla) :contentReference[oaicite:7]{index=7}
 
-HTML5 – Semantic web structure and layout.
+## 👨‍💻 Setup
 
-CSS3 – Modern styles, responsive design, interactive grid animations.
+Clone the project:
 
-JavaScript (Vanilla) – Core logic for grid generation, event handling, and pathfinding algorithm implementation.
+```bash
+git clone https://github.com/Jixu-Dev/Pathfinding-Algorithm-Visualizer.git
 
-🔋 Features
-
-👉 Visualize shortest-path calculation using Dijkstra’s algorithm.
-👉 Interactive grid with click & drag wall placement.
-👉 Draggable start & end nodes to test different scenarios.
-👉 Random maze generator for fun and challenge.
-👉 Smooth animation showing visited nodes and final path.
-👉 Responsive layout that works on desktop and mobile.
-
-📱 Touch-optimized mobile controls
-
-⚛️ React version of the project
-
-⭐ If you like this project, consider giving it a star on GitHub!
+```
+Open index.html in your browser to run the visualizer.
